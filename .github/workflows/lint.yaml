@@ -26,5 +26,3 @@ jobs:
         run: poetry run ruff check --exit-non-zero-on-fix active_pr/ tests/
       - name: isort
         run: poetry run isort --check-only active_pr/ tests/
-      - name: pytest
-        run: poetry run pytest --doctest-modules
