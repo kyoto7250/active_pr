@@ -9,7 +9,7 @@ style: ## format and lint
 	poetry run ruff  active_pr/ tests/
 
 test: ## exec pytest
-	poetry run pytest --doctest-modules
+	poetry run pytest --doctest-modules --log-cli-level=DEBUG
 
 build: ## build a dist
 	poetry build
