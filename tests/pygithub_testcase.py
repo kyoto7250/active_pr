@@ -1,3 +1,4 @@
+# thanks: https://gist.github.com/edthrn/ce28cb1a8a86caab0129a302d8c2bc33
 from unittest import TestCase
 
 import httpretty
